@@ -1,0 +1,102 @@
+baseURL: http://amsimp.github.io/
+languageCode: en-uk
+title: AMSIMP
+theme: hugo-fresh
+disableKinds: ["taxonomyTerm"]
+googleAnalytics: UA-162151853-1
+DefaultContentLanguage: en
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: An open-source solution which leverages machine learning to improve numerical weather prediction
+  navColor: blue
+  navbarlogo:
+    image: logos/amsimp.svg
+    link: /
+  font:
+    name: "Lato"
+    sizes: [400,900]
+  hero:
+    # Main hero title
+    title: AMSIMP
+    # Hero subtitle (optional)
+    subtitle: An open-source solution which leverages machine learning to improve numerical weather prediction
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "/install"
+    # Hero image (from static/images/___)
+    image: logos/amsimp.svg
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  news:
+    title: AMSIMP Developer Blog is LIVE!
+    content: get the latest news on the developments with AMSIMP
+    url: /news
+
+  keyfeatures:
+    features:
+    - title: Powerful Neural Networks
+      text: Fast and accurate, AMSIMP's neural networks provide high quality weather forecasts and predictions.
+    - title: Beautiful Visualisations
+      text: AMSIMP offers a wide variety of exquisite atmospheric contour and vector plots, fit for any academic journal.
+    - title: Accurate
+      text: Insert here.
+    - title: Performance
+      text: The core of AMSIMP is well-optimized Cython code. Enjoy the flexibility of Python with the speed of compiled C code.
+    - title: Easy to use
+      text: AMSIMP's high level and intuitive syntax makes it accessible for programmers and atmospheric scientists of any experience level.
+    - title: Open source
+      text: Distributed under the [GNU General Public License v3.0](https://github.com/amsimp/amsimp/blob/master/LICENSE), AMSIMP is developed [publicly on GitHub](https://github.com/amsimp/amsimp).
+
+languages:
+  en:
+    title: AMSIMP
+    languageName: English
+    weight: 1
+    contentDir: content/en
+    navbar:
+      - title: Install
+        url: /install
+      - title: Documentation
+        url: https://docs.amsimp.com
+      - title: Community
+        url: /community
+      - title: About Us
+        url: /about
+      - title: Contribute
+        url: /contribute
+    footer:
+      logo: amsimp.svg
+      socialmediatitle: ""
+      socialmedia:
+      - link: https://github.com/amsimp/amsimp
+        icon: github
+      - link: https://twitter.com/amsimp_team
+        icon: twitter
+      quicklinks:
+        column1:
+          title: ""
+          links:
+            - text: Install
+              link: /install
+            - text: Documentation
+              link: https://docs.amsimp.com
+            - text: Roadmap
+              link: https://github.com/orgs/amsimp/projects
+        column2:
+          links:
+            - text: About us
+              link: /about
+            - text: Community
+              link: /community
+            - text: Contribute
+              link: /contribute
+        column3:
+          links:
+            - text: Get help
+              link: /gethelp
+            - text: Code of conduct
+              link: /code-of-conduct

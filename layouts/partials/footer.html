@@ -1,0 +1,55 @@
+{{- $footer      := .Site.Params.footer }}
+{{- $logo        := index $footer "logo" }}
+{{- $quickLinks  := index $footer "quicklinks" }}
+{{- $socialMedia := index $footer "socialmedia" }}
+<footer id="footer" class="footer">
+  <div class="container">
+    <div id="footer-columns" class="columns">
+      {{- range $quickLinks }}
+        <div class="link-column">
+          <div class="footer-column">
+            <div class="footer-header">
+            </div>
+            <ul class="link-list">
+              {{- range .links }}
+              <li class="link-list">
+                <a class="footer-link" href="{{ .link }}">
+                  {{ .text }}
+                </a>
+              </li>
+              {{- end }}
+            </ul>
+          </div>
+        </div>
+      {{- end }}
+        <div class="footer-actions">
+            <p>Sign up for the latest AMSIMP news, resources, <br> and more</p>
+            <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+            <form action="https://amsimp.us17.list-manage.com/subscribe/post?u=a76671ec488393cae65aed2f4&amp;id=b24a4448d8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+              
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a76671ec488393cae65aed2f4_b24a4448d8" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+            </div>
+            <!--End MailChimp -->
+
+            <nav class="level is-mobile">
+                <div class="social-media-icons">
+                    {{- range $socialMedia }}
+                    <a class="level-item" href="{{ .link }}" aria-label="{{ .link }}">
+                    <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+                    </a>
+                    {{- end }}
+                </div>
+            </nav>
+            <div class="copyright">&copy; 2020 AMSIMP. All rights reserved.</div>
+        </div>
+    </div>
+  </div>
+</footer>
