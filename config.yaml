@@ -3,7 +3,7 @@ languageCode: en-uk
 title: AMSIMP
 theme: hugo-fresh
 disableKinds: ["taxonomyTerm"]
-googleAnalytics: UA-162151853-1
+googleAnalytics: UA-131031265-2
 DefaultContentLanguage: en
 markup:
   goldmark:
