@@ -21,9 +21,9 @@ This list is the main forum for longer-form discussions, like adding new feature
 
 ### [GitHub issue tracker](https://github.com/amsimp/amsimp/issues)
 
-- For bug reports (e.g. "`amsimp.Dynamics().simulate()` returns an outrageous temperature value, such as 42 K or 400 K in the case of Earth.");
+- For bug reports (e.g. "`amsimp.OperationalModel().generate_forecast()` returns an outrageous temperature value, such as 42 K or 400 K in the case of Earth.");
 - documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have the RRTM implemented directly into the software.").
+- and feature requests (e.g. "I would like to have the precipitation type as a prognostic variable within the software.").
 
 ### [Slack](https://join.slack.com/t/amsimpworkspace/shared_invite/zt-fz2zx9na-g0JmP9BMtPOqBy7gWN0HLg)
 

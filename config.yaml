@@ -36,16 +36,35 @@ params:
     content: get the latest news on the developments with AMSIMP
     url: /news
 
+  casestudies:
+    title: PROGNOSTIC VARIABLES
+    features:
+    - title: 2 metre temperature
+      text: The 2 metre temperature field gives forecasters a general idea of what the temperature is now and what it will be in the future at the Earth's surface.
+      img: images/content_images/vars/t2m.png
+      alttext: Example 2 metre temperature prediction from the AMSIMP GFM.
+      url: https://apps.ecmwf.int/codes/grib/param-db?id=167
+    - title: 850 hPa air temperature
+      text: The second air temperature parameter is at a pressure surface of 850 hPa. The 850 hPa pressure surface is usually above the planetary boundary layer and therefore not affected by diurnal variations but provides information about broader temperature trends. 
+      img: images/content_images/vars/t.png
+      alttext: Example 850 hPa air temperature prediction from the AMSIMP GFM.
+      url: https://apps.ecmwf.int/codes/grib/param-db/?id=130
+    - title: 500 hPa geopotential
+      text: Geopotential at 500 hPa pressure is a commonly used variable that encodes the synoptic-scale pressure distribution. It is the standard verification variable for most medium-range numerical weather prediction models.
+      img: images/content_images/vars/z.png
+      alttext: Example 500 hPa air temperature prediction from the AMSIMP GFM.
+      url: https://apps.ecmwf.int/codes/grib/param-db/?id=129
+
   keyfeatures:
     features:
     - title: Powerful Neural Networks
       text: Fast and accurate, AMSIMP's neural networks provide high quality weather forecasts and predictions.
-    - title: Beautiful Visualisations
-      text: AMSIMP offers a wide variety of exquisite atmospheric contour and vector plots, fit for any academic journal.
-    - title: Accurate
-      text: Insert here.
+    - title: Operational Model
+      text: AMSIMP offers a pretrained operational model architecture. It is trained on a dataset from the past decade, ranging from the year 2009 to the year 2016.
+    - title: Near Real-Time NWP
+      text: AMSIMP offers near real-time numerical weather prediction through initialisation conditions provided by the Global Data Assimilation System.
     - title: Performance
-      text: The core of AMSIMP is well-optimized Cython code. Enjoy the flexibility of Python with the speed of compiled C code.
+      text: The core of AMSIMP is well-optimized Python code. A performance increase of 6.18 times can be expected in comparison against a physics-based model of a similar resolution.
     - title: Easy to use
       text: AMSIMP's high level and intuitive syntax makes it accessible for programmers and atmospheric scientists of any experience level.
     - title: Open source
@@ -68,6 +87,8 @@ languages:
         url: /about
       - title: Contribute
         url: /contribute
+      - title: Roadmap
+        url: /roadmap
     footer:
       logo: amsimp.svg
       socialmediatitle: ""
