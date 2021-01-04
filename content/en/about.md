@@ -9,7 +9,11 @@ AMSIMP is an open-source solution which leverages machine learning to improve nu
 
 ## Corporate Structure
 
-The role of the NumPy Steering Council is to ensure, through working with and serving the broader NumPy community, the long-term well-being of the project, both technically and as a community. The NumPy Steering Council currently consists of the following members (in alphabetical order):
+The role of AMSIMP's corporate structure is to ensure, through working with and serving the broader AMSIMP community, the long-term well-being of the project, both technically and as a community. The management of the company currently consists of the following members (in alphabetical order):
 
-- Conor Casey
-- Laura O'Sullivan
+- Conor Casey - Founder and Chief Executive Officer
+- Laura O'Sullivan - Chief Operating Officer
+
+Conor Casey is a self-taught developer with a passion for understanding large systems. He has received multiple national and international awards for my project in modelling light pollution in Irish towns.
+
+Laura O'Sullivan is a self-taught machine learning developer - she’s previously won prizes for exoplanet detection and cervical cancer screening research.

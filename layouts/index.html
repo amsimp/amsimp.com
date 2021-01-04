@@ -12,15 +12,15 @@
     {{ end }}
 
     {{ if .Site.Params.shell }}
-    {{ partial "shell.html" . }}
+    {{ partial "demo.html" . }}
     {{ end }}
 
     {{ if .Site.Params.tabs }}
     {{ partial "tabs.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.casestudies }}
-    {{ partial "casestudies.html" . }}
+    {{ if .Site.Params.vars }}
+    {{ partial "vars.html" . }}
     {{ end }}
 
     {{ if .Site.Params.section4 }}

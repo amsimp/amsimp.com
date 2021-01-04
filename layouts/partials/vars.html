@@ -1,6 +1,6 @@
-{{- $casestudies := .Site.Params.casestudies }}
-{{- $title    := index $casestudies "title" }}
-{{- $features := index $casestudies "features" }}
+{{- $vars := .Site.Params.vars }}
+{{- $title    := index $vars "title" }}
+{{- $features := index $vars "features" }}
 <section class="casestudies">
     <div class="container">
         <h1 class="casestudies-title">{{ $title }}</h1>

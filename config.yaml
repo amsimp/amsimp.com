@@ -36,7 +36,9 @@ params:
     content: get the latest news on the developments with AMSIMP
     url: /news
 
-  casestudies:
+  shell:
+    title: placeholder
+  vars:
     title: PROGNOSTIC VARIABLES
     features:
     - title: 2 metre temperature
@@ -81,16 +83,16 @@ languages:
         url: /install
       - title: Documentation
         url: https://docs.amsimp.com
+      - title: Roadmap
+        url: /roadmap
       - title: Community
         url: /community
       - title: About Us
         url: /about
       - title: Contribute
         url: /contribute
-      - title: Roadmap
-        url: /roadmap
     footer:
-      logo: amsimp.svg
+      logo: footer.png
       socialmediatitle: ""
       socialmedia:
       - link: https://github.com/amsimp/amsimp
@@ -106,7 +108,9 @@ languages:
             - text: Documentation
               link: https://docs.amsimp.com
             - text: Roadmap
-              link: https://github.com/orgs/amsimp/projects
+              link: /roadmap
+            - text: GitHub organisation
+              link: https://github.com/amsimp
         column2:
           links:
             - text: About us
@@ -115,9 +119,5 @@ languages:
               link: /community
             - text: Contribute
               link: /contribute
-        column3:
-          links:
-            - text: Get help
-              link: /gethelp
             - text: Code of conduct
               link: /code-of-conduct
